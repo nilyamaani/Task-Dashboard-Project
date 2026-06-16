@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Task Modal</title>
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-header">
+            <h3>Add New Task</h3>
+            <span class="close-icon">&times;</span>
+        </div>
+        
+        <div class="modal-body">
+            <label>Task Title</label>
+            <input type="text" placeholder="e.g. Design homepage layout">
+            
+            <label>Description</label>
+            <input type="text" placeholder="e.g. Discuss new UI guidelines with team">
+            
+            <div class="row">
+                <div>
+                    <label>Due Date</label>
+                    <input type="text" placeholder="Select date">
+                </div>
+                <div>
+                    <label>Priority</label>
+                    <input type="text" placeholder="Select priority">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn-cancel">Cancel</button>
+            <button class="btn-create">Create Task</button>
+        </div>
+    </div>
+
+</body>
+</html>
